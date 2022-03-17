@@ -1,0 +1,66 @@
+.body-p5 {
+    width: 600px;
+    max-width: 80%;
+    margin: auto;
+}
+.header-p5 {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgb(43, 0, 100), rgba(43, 0, 100, 0.8));
+    color: bisque;
+    padding: 20px;
+}
+.header-p5 > img {
+    width: 60px;
+    padding-right: 10px;
+}
+
+.main-p5 {
+    padding: 15px;
+    border: solid rgb(43, 0, 100);
+}
+.main-p5 .form-p5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-p5 .input{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 0 0 0;
+}
+.main-p5 .input label {
+    display: none;
+}
+.form-p5 #A,#B {
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+}
+.main-p5 #submitBtn {
+    margin: 20px;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to right, rgb(43, 0, 100), rgba(43, 0, 100, 0.8));
+    color: bisque;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.output-p5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.output-p5 > .topText, .bottomText {
+    position: absolute;
+    color: beige;
+    z-index: 1;
+}
+.output-p5 > .bottomText {
+    bottom: 0;
+}
+.output-p5 > img {
+    width: 400px;
+}

@@ -1,0 +1,51 @@
+.body-p7 {
+    font-size: 20px;
+}
+.body-p7 main {
+    max-width: 650px;
+    margin: auto;
+}
+.body-p7 form .row {
+    max-width: 100%;
+    display: flex;
+}
+.body-p7 form .col {
+    width: 50%;
+}
+.body-p7 form input[type="text"] {
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+}
+.body-p7 form input[type="checkbox"] {
+    margin: 10px;
+    max-width: 20px;
+}
+.body-p7 form textarea {
+    margin: 10px;
+    width: 90%;
+    height: 60%;
+    border-radius: 5px;
+}
+.body-p7 form fieldset {
+    max-width: 90%;
+    margin: 10px;
+}
+.body-p7 form input[type="radio"] {
+    margin: 5px 10px;
+}
+.body-p7 form .select {
+    padding: 10px;
+}
+.body-p7 .select select {
+    margin: 10px 0 0 0;
+    width: 100px;
+    height: 30px;
+}
+.body-p7 form button {
+    margin: 0 10px;
+    width: 100px;
+    height: 32px;
+    font-size: 20px;
+}

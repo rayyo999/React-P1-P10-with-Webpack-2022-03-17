@@ -1,0 +1,61 @@
+.body-p4{
+    max-width: 700px;
+    margin: auto;
+    background-color: rgb(255, 238, 217);
+    border-radius: 10px;
+}
+
+.header-p4 {
+    background-color: brown;
+    color: blanchedalmond;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.header-p4 > i {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.main-p4{
+    padding: 25px;
+
+}
+.main-p4 > .card-p4 {
+    padding: 25px;
+}
+.card-p4 > img {
+    float: left;
+    border-radius: 10px;
+}
+.card-p4 > .info-p4 {
+    padding: 20px;
+    margin-left: 210px;
+    min-width: 300px;
+}
+.info-p4 > i {
+    color: red;
+} .info-p4 > .country {
+    padding: 0 10px 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.info-p4 > h1 {
+    padding: 10px;
+    font-size: 50px;
+}
+.info-p4 > h4 {
+    padding: 10px;
+}
+.info-p4 > p {
+    padding-left: 10px;
+    word-wrap: break-word;
+}
+
+.card-p4::after{
+    content: "";
+    display: block;
+    clear: both;
+}

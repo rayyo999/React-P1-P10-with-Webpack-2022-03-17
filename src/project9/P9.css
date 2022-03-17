@@ -1,0 +1,87 @@
+.body-p9 {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(47, 96, 119);
+}
+.body-p9 nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(4, 5, 10, 0.9);
+    color: beige;
+    padding: 20px 30px;
+}
+.body-p9 .nav-light {
+    background-color: white
+}
+.body-p9 nav > img {
+    width: 40px;
+    margin-right: 8px
+}
+.body-p9 nav > h2 {
+    margin: auto;
+    margin-left: 0;
+    color: #61dafb;
+}
+.body-p9 nav > .mode {
+    display: flex;
+    align-items: center;
+}
+.body-p9 .nav-light p{
+    color: black;
+}
+.body-p9 nav .toggler {
+    width: 40px;
+    height: 26px;
+    margin: 5px;
+    padding: 3px;
+    border: 0.1px solid white;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.body-p9 .nav-light .toggler{
+    border: 0.1px solid black;
+    justify-content: start;
+}
+.body-p9 nav .toggler-circle{
+    border: 0.1px solid white;
+    border-radius: 13px;
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+}
+.body-p9 .nav-light .toggler-circle{
+    background-color: black;
+}
+.body-p9 main {
+    background-color: rgba(4, 5, 10, 0.85);
+    color: rgb(148, 180, 207);
+    padding: 30px;
+    background-image: url("../reactLogo.png");
+    background-repeat: no-repeat;
+    background-position: 300px -80px;
+    background-size: 300px;
+    background-blend-mode: darken;
+}
+.body-p9 .main-light {
+    background-color: white;
+    color: black;
+}
+.body-p9 main > ul {
+    margin-top: 10px;
+}
+.body-p9 main > ul > li {
+    padding: 4px;
+}
+.body-p9 footer {
+    padding: 6px 8px;
+    text-align: end;
+    background-color: rgba(4, 5, 10, 0.9);
+    color: blanchedalmond;
+}
+.body-p9 .footer-light{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,70 @@
+.p2-body {
+    max-width: 500px;
+    margin: auto;
+}
+
+.header-p2 {
+    text-align: center;
+    background-color: rgb(26, 22, 26);
+    color: aliceblue;
+}
+.header-p2 > h2{
+    padding: 10px;
+}
+.header-p2  button{
+    height: 45px;
+    width: 150px;
+    margin: 6px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: solid;
+    position: relative;
+}
+.header-p2 .email-icon {
+    width: 20px;
+    position: absolute;
+    left: 25px;
+    top: 11px;
+}
+.header-p2 .phone-icon {
+    width: 20px;
+    position: absolute;
+    left: 25px;
+    top: 7.5px;
+}
+.header-p2 span {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.main-p2 {
+    background-color: rgb(26, 22, 26);
+}
+.main-p2 > div {
+    color: aliceblue;
+    max-width: 80%;
+    margin: auto;
+}
+.main-p2 h2 {
+    padding: 5px;
+}
+.main-p2 p {
+    padding: 5px;
+    height: 100px;
+}
+
+.footer-p2 {
+    background-color: rgb(26, 22, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+}
+.footer-p2 svg {
+    width:30px;
+    fill: white;
+    margin:0 15px 0 0;
+
+}

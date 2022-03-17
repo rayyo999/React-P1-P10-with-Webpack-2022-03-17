@@ -1,0 +1,20 @@
+.pt-body {
+    max-width: 500px;
+    margin: auto;
+}
+
+.nav-pt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-pt > img {
+    width: 100px;
+}
+.nav-pt > ul{
+    list-style: none;
+    display: flex;
+}
+.nav-pt > ul > li{
+    padding: 10px;
+}

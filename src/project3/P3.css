@@ -1,0 +1,93 @@
+.p3-body{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header-p3 nav {
+    display: flex; 
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+}
+.header-p3 svg {
+    width: 50px;
+    margin-left: 15px;
+    padding: 10px;
+    fill: rgb(235, 78, 104);
+}
+.header-p3 span {
+    color:rgb(235,78,104);
+    font-size: 25px;
+}
+.header-p3 .container {
+    display: flex;
+    justify-content: center;
+}
+.header-p3 .row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    padding: 10px;
+}
+.header-p3 .col-1 ,.col-2, .col-3, .col-4, .col-5{
+    flex: 20%;
+    max-width: 20%;
+    padding: 3px;
+}
+.header-p3 .col-1{
+    margin-top: 40px;
+}
+.header-p3 .col-3, .col-5 {
+    margin-top: 20px;
+}
+.header-p3 img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.header-p3 h1{
+    padding: 15px;
+}
+.header-p3 p {
+    padding-left: 15px;
+    max-width: 65%;
+}
+.main-p3 {
+    padding-top: 20px;
+}
+.main-p3 > .card-p3 {
+    display: inline-block;
+    max-width: fit-content;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    position: relative;
+}
+.main-p3 .available {
+    background-color: rgba(255,255,255,0.5);
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.card-p3 img {
+    border-radius: 15px;
+    max-width: 100%;
+}
+.card-p3 h5 {
+    padding-top: 7.5px;
+}
+.card-p3  h5 > i{
+    color: rgb(255, 42, 42);
+}
+.card-p3 h5 > span {
+    color: rgb(163, 163, 163);
+}
+.card-p3 p {
+    padding-top: 7.5px;
+}
+.card-p3 p > span {
+    font-weight: bold;
+}

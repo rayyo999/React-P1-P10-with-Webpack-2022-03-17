@@ -1,0 +1,55 @@
+.body-p8 {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(20, 119, 119);
+}
+.body-p8  .main-p8{
+    max-width: 100%;
+    padding: 30px;
+}
+
+.main-p8  .form-p8{
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px ;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+}
+.form-p8 input[type="text"] {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-p8 .checkboxAndLabel {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.form-p8 input[type="checkbox"]{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+.form-p8 label {
+    font-size: 25px;
+    padding: 10px;
+}
+.form-p8 button {
+    background-color: rgb(20, 119, 119);
+    color: aliceblue;
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+.p1-body {
+    max-width: 500px;
+    margin: auto;
+}
+.nav-p1 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(4, 5, 10, 0.9);
+    color: beige;
+    padding: 20px 30px;
+}
+.nav-p1 > img {
+    width: 40px;
+    margin-right: 8px
+}
+.nav-p1 > h2 {
+    margin: auto;
+    margin-left: 0;
+    color: #61dafb;
+}
+.nav-p1 > h3 {
+    margin: auto;
+    margin-right: 0;
+}
+.main-p1 {
+    background-color: rgba(4, 5, 10, 0.85);
+    color: rgb(148, 180, 207);
+    padding: 30px;
+    background-image: url("../reactLogo.png");
+    background-repeat: no-repeat;
+    background-position: 300px -80px;
+    background-size: 300px;
+    background-blend-mode: darken;
+}
+.main-p1 > ul {
+    margin-top: 10px;
+}
+.main-p1 > ul > li {
+    padding: 4px;
+}
+.footer-p1 {
+    padding: 6px 8px;
+    text-align: end;
+    background-color: rgba(4, 5, 10, 0.9);
+    color: blanchedalmond;
+}
